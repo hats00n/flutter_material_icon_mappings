@@ -9,6 +9,7 @@ class FlutterMaterialIconMapping {
   // Singleton instance
   static final FlutterMaterialIconMapping _instance = FlutterMaterialIconMapping._internal();
 
+
   // Class variable to store the parsed JSON data
   late Map<String, dynamic> iconNameCodePointMapping;
 
