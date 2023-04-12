@@ -1,9 +1,9 @@
 library flutter_material_icon_mappings;
 
 import 'dart:convert';
-import 'dart:io';
 
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 class FlutterMaterialIconMapping {
   // Singleton instance
@@ -31,7 +31,7 @@ class FlutterMaterialIconMapping {
   // Read JSON file and populate jsonData
   Future<void> _readJsonFile(String filePath) async {
     try {
-      final jsonString = await File(filePath).readAsString();
+      final String jsonString = await rootBundle.loadString("packages/flutter_material_icon_mapping/assets/data.json");
       iconNameCodePointMapping = jsonDecode(jsonString);
     } catch (e) {
       iconNameCodePointMapping = {};
