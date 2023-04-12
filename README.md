@@ -11,11 +11,11 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-This package provides a simple function to get IconData object , given material icon's name
+This package provides a simple function to get IconData object , given material icon's name.
 
 ## Features
 
-This package provides a simple function to get IconData object , given material icon's name
+This package provides a simple function to get IconData object , given material icon's name.
 
 ## Getting started
 
