@@ -11,25 +11,20 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+This package provides a simple function to get IconData object , given material icon's name
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+This package provides a simple function to get IconData object , given material icon's name
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Import the package and use it as below.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
 ```dart
-const like = 'sample';
+FlutterMaterialIconMapping().iconDataFromIconName("interests");
 ```
 
 ## Additional information
