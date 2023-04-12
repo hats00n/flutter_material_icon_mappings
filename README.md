@@ -24,5 +24,5 @@ Import the package and use it as below.
 ## Usage
 
 ```dart
-FlutterMaterialIconMapping().iconDataFromIconName("interests");
+FlutterMaterialIconMapping.iconDataFromIconName("interests");
 ```
