@@ -11,7 +11,7 @@ class FlutterMaterialIconMapping {
 
 
   // Class variable to store the parsed JSON data
-  late Map<String, dynamic> iconNameCodePointMapping;
+  late Map<String, int> iconNameCodePointMapping;
 
   // Private constructor
   FlutterMaterialIconMapping._internal() {
@@ -25,7 +25,7 @@ class FlutterMaterialIconMapping {
   }
 
   IconData? iconDataFromIconName(String iconName) {
-    return iconNameCodePointMapping.containsKey(iconName) ? IconData(iconNameCodePointMapping[iconName], fontFamily: 'MaterialIcons') : null;
+    return iconNameCodePointMapping.containsKey(iconName) ? IconData(iconNameCodePointMapping[iconName]!, fontFamily: 'MaterialIcons') : null;
   }
 
   // Read JSON file and populate jsonData
