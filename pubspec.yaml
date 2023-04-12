@@ -1,6 +1,6 @@
 name: flutter_material_icon_mappings
 description: just a mapping between flutter icons and their name and codepoints
-version: 1.1.0
+version: 1.2.0
 homepage: https://github.com/hats00n/flutter_material_icon_mappings/
 
 environment:

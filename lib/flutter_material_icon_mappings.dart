@@ -31,7 +31,7 @@ class FlutterMaterialIconMapping {
   // Read JSON file and populate jsonData
   Future<void> _readJsonFile(String filePath) async {
     try {
-      final String jsonString = await rootBundle.loadString("packages/flutter_material_icon_mapping/assets/data.json");
+      final String jsonString = await rootBundle.loadString("packages/flutter_material_icon_mapping/assets/mapping.json");
       iconNameCodePointMapping = jsonDecode(jsonString);
     } catch (e) {
       iconNameCodePointMapping = {};
